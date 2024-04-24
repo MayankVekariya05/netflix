@@ -18,7 +18,7 @@ body{
   height: 100vh;
   width: 100vw;
   position: relative;
-  z-index: -2;
+  z-index: 0;
   background-position: center center;
 }
 #box {
@@ -52,6 +52,7 @@ img {
   width: 120px;
   background-color: rgba(0, 0, 0, 0.728);
   border-radius: 5px;
+  z-index: 20;
 }
 .btn {
   height: 35px;
